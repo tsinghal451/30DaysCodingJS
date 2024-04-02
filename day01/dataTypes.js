@@ -21,3 +21,7 @@ typeof(value) // typeof is basically use for know the which data types is used
 
 console.log(typeof undefined) // output => undefined
 console.log(typeof null) // output => object 
+
+
+// reference data types(Non-premitive data type)
+// array , object , function 
