@@ -1,22 +1,22 @@
-const user =  {
-    username : "tushar",
-    price : 4099,
-    welcomeMsg : function(){
-        console.log(`${this.username}, welcome to youtube`); // this keyword refer a current object 
-    }
-}
+const user = {
+  username: "tushar",
+  price: 4099,
+  welcomeMsg: function () {
+    console.log(`${this.username}, welcome to youtube`); // this keyword refer a current object
+  },
+};
 
-user.welcomeMsg() // tushar, welcome to youtube
-user.username = "okii"
-user.welcomeMsg() // okii, welcome to youtube
+user.welcomeMsg(); // tushar, welcome to youtube
+user.username = "okii";
+user.welcomeMsg(); // okii, welcome to youtube
 
 // arrow function
 
 const chai = () => {
-    const username = "tushar"
-    console.log(this.username); // undefined
-}
-chai() 
+  const username = "tushar";
+  console.log(this.username); // undefined
+};
+chai();
 
 /*
 difference between arrow function and normal function 
@@ -43,8 +43,7 @@ Constructor functions:
 Arrow functions cannot be used as constructor functions.
 */
 
-const addTwo = (num1 , num2) => num1 + num2 // implict retrun
-console.log(addTwo(3,4)); // 7
+const addTwo = (num1, num2) => num1 + num2; // implict retrun
+console.log(addTwo(3, 4)); // 7
 
-const addTwo2 = (num1 , num2) => (num1 + num2 ) // () don't use return keyword
-
+const addTwo2 = (num1, num2) => num1 + num2; // () don't use return keyword
