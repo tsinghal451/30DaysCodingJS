@@ -10,7 +10,8 @@ user.welcomeMsg(); // tushar, welcome to youtube
 user.username = "okii";
 user.welcomeMsg(); // okii, welcome to youtube
 
-// arrow function
+// arrow function is annonomus function
+//  annonomus function is used when do not use every time useally
 
 const chai = () => {
   const username = "tushar";
