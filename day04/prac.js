@@ -16,3 +16,5 @@ for (let i = 0; i < ans; i++) {
 // const str = "  MIH     IR   " 
 // console.log(str.trim());
 // console.log(str.replace("     " , ""));
+
+
