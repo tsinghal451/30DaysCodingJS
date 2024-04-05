@@ -1,0 +1,95 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  h4 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    text-align: center;
+  }
+  
+  /* Input styles */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Button styles */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Button hover styles */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Results styles */
+  #results {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  #Guides {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Weight guide styles */
+  .weight-guide {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  /* Weight guide heading styles */
+  .weight-guide h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Weight guide item styles */
+  .weight-guide p {
+    margin-bottom: 5px;
+  }
+  
+  /* Weight guide classes styles */
+  .Overweight {
+    color: #ff6347;
+  }
+  
