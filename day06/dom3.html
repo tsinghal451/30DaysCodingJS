@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dom learning</title>
+  </head>
+  <body style="background-color: #212121; color: #fff">
+    <ul class="language">
+      <li>Javascript</li>
+    </ul>
+  </body>
+  <script>
+    function addLan(langname) {
+      const li = document.createElement("li");
+      li.innerHTML = `${langname}`;
+      document.querySelector(".language").appendChild(li);
+    }
+    addLan("python");
+    addLan("typescript");
+
+    // optimize approach
+    function addlang(langname) {
+      const li = document.createElement("li");
+      li.appendChild(document.createTextNode(langname));
+      document.querySelector(".language").appendChild(li);
+    }
+    addlang("css");
+
+    //edit
+    const seclang = document.querySelector("li:nth-child(2)");
+    // seclang.innerHTML = "hello"
+    const newli = document.createElement("li");
+    newli.textContent = "mojo";
+    seclang.replaceWith(newli);
+
+    //EDIT
+
+    const firstline = document.querySelector("li:nth-child(1)");
+    // firstline.outerHTML = "<li>hpdds</li>"
+
+    // Remove
+
+    const lastlang = document.querySelector("li:last-child");
+    lastlang.remove(); // use to remove element
+  </script>
+</html>
