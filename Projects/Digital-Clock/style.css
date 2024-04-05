@@ -1,0 +1,50 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #007bff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Banner styles */
+  #banner {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #banner span {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  /* Clock container styles */
+  .center {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Clock styles */
+  #clock {
+    font-size: 48px;
+    color: #333;
+    font-weight: bold;
+  }
+  
